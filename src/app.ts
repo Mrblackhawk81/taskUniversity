@@ -1,9 +1,9 @@
-import { Chihuahua, Pitbull } from "./classes/Razas";
+import { Mestizo, Doberman } from "./classes/Razas";
 import type { Perro } from "./classes/Perro";
 
 // Instanciamos los objetos
-const perroMestizo = new Chihuahua("Spike", 2);
-const perroDoberman = new Pitbull("Rambo", 5);
+const perroMestizo = new Mestizo("Spike", 2);
+const perroDoberman = new Doberman("Rambo", 5);
 
 // 1. Ejemplo de Herencia
 console.log("--- Ejemplo de Herencia ---");
