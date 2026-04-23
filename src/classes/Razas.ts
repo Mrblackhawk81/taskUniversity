@@ -1,12 +1,12 @@
 import { Perro } from "./Perro";
 
-export class Chihuahua extends Perro {
+export class Mestizo extends Perro {
   ladrar(): void {
     console.log(`${this.nombre} dice: guau guau`);
   }
 }
 
-export class Pitbull extends Perro {
+export class Doberman extends Perro {
   ladrar(): void {
     console.log(`${this.nombre} dice: woof woof`);
   }
